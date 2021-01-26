@@ -7,7 +7,7 @@
     android:background="@drawable/ic_bg"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity8">
 
     <TextView
         android:id="@+id/textView1"
@@ -48,7 +48,7 @@
                 android:textColor="@color/dark_grey"/>
 
             <TextView
-                android:id="@+id/totalScoreTextView"
+                android:id="@+id/totalScoreTextView1"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_marginTop="5dp"
@@ -95,7 +95,7 @@
                 android:layout_weight="1">
 
                 <TextView
-                    android:id="@+id/playerTextView"
+                    android:id="@+id/playerTextView1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:text="-"
@@ -106,7 +106,7 @@
                     android:textStyle="bold"
                     android:textColor="@color/grey"/>
                 <TextView
-                    android:id="@+id/cpuTextView"
+                    android:id="@+id/cpuTextView1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:text="-"
@@ -147,7 +147,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     app:cornerRadius="5dp"
-                    android:id="@+id/button1"
+                    android:id="@+id/Button1"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     app:strokeColor="@color/purple_500"
                     android:layout_height="60dp"
@@ -163,7 +163,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     app:cornerRadius="5dp"
-                    android:id="@+id/button2"
+                    android:id="@+id/Button2"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     app:strokeColor="@color/purple_500"
                     android:layout_height="60dp"
@@ -179,7 +179,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     app:cornerRadius="5dp"
-                    android:id="@+id/button3"
+                    android:id="@+id/Button3"
                     android:gravity="center"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     app:strokeColor="@color/purple_500"
@@ -204,7 +204,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     app:cornerRadius="5dp"
-                    android:id="@+id/button4"
+                    android:id="@+id/Button4"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     app:strokeColor="@color/purple_500"
                     android:layout_height="60dp"
@@ -220,7 +220,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     app:cornerRadius="5dp"
-                    android:id="@+id/button5"
+                    android:id="@+id/Button5"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     app:strokeColor="@color/purple_500"
                     android:layout_height="60dp"
@@ -236,7 +236,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     app:cornerRadius="5dp"
-                    android:id="@+id/button6"
+                    android:id="@+id/Button6"
                     android:gravity="center"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     app:strokeColor="@color/purple_500"
@@ -256,7 +256,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/nextButton"
+        android:id="@+id/nextButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NEXT"

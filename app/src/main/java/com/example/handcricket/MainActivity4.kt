@@ -24,5 +24,11 @@ class MainActivity4 : AppCompatActivity() {
         else {
             "You need to chase ${target.text} run" + if(target.text.toString().toInt() != 1) "s" else ""
         }
+
+        next.setOnClickListener {
+            val i = Intent(this , MainActivity8::class.java)
+            i.putExtra(KEY_3 , arrayOf(if(toss == "Batting") "Bowling" else "Batting" , target.text.toString()))
+            startActivity(i)
+        }
     }
 }

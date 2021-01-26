@@ -40,27 +40,29 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:text="Total Score"
+                android:text="Total Score - YOU"
                 android:textSize="25sp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:textColor="@color/dark_grey"/>
+
             <TextView
+                android:id="@+id/playerTotalScoreTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:text="0"
                 android:layout_marginTop="5dp"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="@color/grey"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/grey"/>
+                android:textStyle="bold" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:text="Total Score"
+                android:text="Total Score - CPU"
                 android:textSize="25sp"
                 android:layout_gravity="center"
                 android:gravity="center"
@@ -68,6 +70,7 @@
                 android:layout_weight="1"
                 android:textColor="@color/dark_grey"/>
             <TextView
+                android:id="@+id/cpuTotalScoreTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:text="0"
@@ -81,6 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:textSize="15sp"
+                android:id="@+id/matchResultTextView"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:textStyle="bold"
@@ -90,7 +94,7 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
     <Button
-        android:id="@+id/startButton"
+        android:id="@+id/mainMenuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="MAIN MENU"
